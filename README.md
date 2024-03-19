@@ -23,6 +23,8 @@ Test framework is  used to communicate with UART Protocol to Monitor ,control an
 * USB Relay Board communicates with UART Protocol with Test Bench PC using pyserial Framework to control write and read the ECU Board HW PIN status.​
 
 * Report Generation: Test case Setup and Test case Run Steps
+
+![Framework Workflow](https://github.com/galisaishankar08/BCA-BSW-IOHWAB-Test-Automation-Framework/assets/80621346/fbe59efb-f37b-495b-9bc0-f90b7d95b88b)
  
 ## Getting Started
  
