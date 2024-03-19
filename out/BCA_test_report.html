@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BCA-BSW IOHWAB Automation Test Framework Verification</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <style type="text/css">
+      @media screen {
+        body {
+          font-family: arial, verdana, trebuchet, officina, sans-serif;
+        }
+        a {
+          text-decoration: none;
+        }
+        .SubHeadingTable {
+          width: 98%;
+          text-align: center;
+          margin-top: 15px;
+          margin-bottom: 25px;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: rgb(220, 221, 222);
+        }
+        h1 {
+          font-family: arial, sans-serif;
+          font-weight: bold;
+        }
+        h4 {
+          font-family: arial, sans-serif;
+          font-weight: bold;
+          font-size: 16px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        .NegativeResult {
+          background-color: rgb(240, 0, 0);
+          text-align: center;
+          font-weight: bold;
+        }
+        .PositiveResult {
+          background-color: rgb(25, 165, 88);
+          text-align: center;
+          font-weight: bold;
+        }
+        th {
+          background-color: rgb(179, 179, 179);
+          font-family: arial, verdana, trebuchet, officina, sans-serif;
+          font-weight: bold;
+          text-align: center;
+          padding: 5px;
+          border-width: 1px;
+          border-style: solid;
+          border-color: rgb(255, 255, 255);
+        }
+        td {
+          background-color: rgb(229, 229, 229);
+          text-align: left;
+          padding: 5px;
+          border-width: 1px;
+          border-style: solid;
+          border-color: rgb(255, 255, 255);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="SubHeadingTable">
+      <h1 class="text-center text-3xl">
+        Report: BCA-BSW IOHWAB Automation Test Framework Verification
+      </h1>
+    </nav>
+    <div class="w-1/2 mb-5 mx-auto">
+      
+      <p class="PositiveResult">Passed</p>
+      
+    </div>
+
+    <div>
+      <div class="SubHeadingTable">
+        <h1 class="text-center text-xl">General Test Information</h1>
+      </div>
+
+      <div class="mx-10">
+        <div>
+          <h4>Test Engineer</h4>
+          <p class="px-10">Windows Login Name: T0159ZN</p>
+        </div>
+
+        <div id="testcaseOverview">
+          <div class="SubHeadingTable">
+            <h1 class="text-center text-xl">Test Overview</h1>
+          </div>
+          <div class="ml-16">
+            <p>Test begin: 2024-03-17 23:24:19.514428</p>
+            <p>Test end: 2024-03-17 23:24:47.723369</p>
+            <h4>Statistics</h4>
+            <div class="ml-16">
+              <table class="text-center text-xl">
+                <tr>
+                  <td>Overall number of test cases</td>
+                  <td class="text-center" width="60">5</td>
+                  <td></td>
+                </tr>
+                <!-- <tr>
+                  <td>Executed test cases</td>
+                  <td class="text-center">0</td>
+                  <td>100% of all test cases</td>
+                </tr>
+                <tr>
+                  <td>Not executed test cases</td>
+                  <td class="text-center">0</td>
+                  <td>0% of all test cases</td>
+                </tr> -->
+                <tr>
+                  <td>Test cases passed</td>
+                  <td class="PositiveResult">5</td>
+                  <td class="PositiveResult">100 % of executed test cases</td>
+                </tr>
+                <tr>
+                  <td>Test cases failed</td>
+                  <td class="NegativeResult">0</td>
+                  <td class="NegativeResult">0 % of executed test cases</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="test">
+      <div id="TestSetup">
+        <div class="SubHeadingTable">
+          <h1 class="text-center text-xl">Test Setup</h1>
+        </div>
+        <div class="mx-10">
+          <table class="w-full text-left pr-5">
+            <tr>
+              <!-- <th width="1px">Timestamp</th> -->
+              <th width="1px">Test Step</th>
+              <th width="auto">Description</th>
+              <th width="1px">Result</th>
+            </tr>
+            <tr>
+              <!-- <td>0.003200</td> -->
+              <td>Step1</td>
+              <td>
+                Connect the COM port of Numato USB Relay
+              </td>
+              
+              <td class="PositiveResult">pass</td>
+              
+            </tr>
+            <tr>
+              <!-- <td>0.503200</td> -->
+              <td class="text-center">Step2</td>
+              <td>Connect the COM port of MCU</td>
+              
+              <td class="PositiveResult">pass</td>
+              
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div id="TestcaseInformation">
+        <div class="SubHeadingTable">
+          <h1 class="text-center text-xl">Testcase Information</h1>
+        </div>
+
+        <div class="mx-10 grid gap-5">
+          
+
+          
+          <div id="testcase1" class="rounded p-5 shadow bg-green-200">
+          
+            <div class="w-full my-5 mx-auto">
+              
+              <p class="PositiveResult">
+                Test Case on
+                TC_ZCU_CR_BSWCPS_BCA_002 - CCourtLightCeilRear : Passed
+              </p>
+              
+            </div>
+
+            <div class="my-5">
+              <p>
+                <span class="font-bold">Test Case Objective : </span>To verify the CCourtLightCeilRear Actuator  Hardware Pin status in ZCU_CR
+              </p>
+              <p>
+                <span class="font-bold">Test Case RQM ID : </span
+                >TC_ZCU_CR_BSWCPS_BCA_002
+              </p>
+            </div>
+
+            <div class="mx-5">
+              <table class="w-full text-left px-5">
+                <tr>
+                  <th>Test Steps</th>
+                  <th>Test Behaviour</th>
+                  <th width="auto">Description</th>
+                  <th width="auto">Expected Result</th>
+                  <th width="auto">Observed Result</th>
+                  <th>Result</th>
+                </tr>
+                <tr>
+                  <td class="text-center">Step 1</td>
+                  <td class="text-center">Test Case Initialization</td>
+                  <td>BCA CCourtLightCeilRear ODH Pin init</td>
+                  <td>
+                    ' ODH_55 ' pin status in BCA Stub application is changed
+                  </td>
+                  <td>
+                    ' ODH_55 ' pin status in BCA Stub application is changed
+                  </td>
+                    <td class="PositiveResult">pass</td>
+                </tr>
+                <tr>
+                  <td class="text-center">Step 2</td>
+                  <td class="text-center">Test Case Run</td>
+                  <td>
+                    Run the CCourtLightCeilRear and Verify the 'ODH_55' ZCU_CR pin
+                  </td>
+                  <td>' ODH_55 ' pin status in ZCU_CR is HIGH</td>
+                  
+                  <td>' ODH_55 ' pin status in ZCU_CR is HIGH</td>
+                  <td class="PositiveResult">pass</td>
+                  
+                </tr>
+              </table>
+            </div>
+          </div>
+          
+
+          
+          <div id="testcase2" class="rounded p-5 shadow bg-green-200">
+          
+            <div class="w-full my-5 mx-auto">
+              
+              <p class="PositiveResult">
+                Test Case on
+                TC_ZCU_CR_BSWCPS_BCA_001 - ConvinenceCelingLight : Passed
+              </p>
+              
+            </div>
+
+            <div class="my-5">
+              <p>
+                <span class="font-bold">Test Case Objective : </span>To verify the ConvinenceCelingLight Actuator  Hardware Pin status in ZCU_CR
+              </p>
+              <p>
+                <span class="font-bold">Test Case RQM ID : </span
+                >TC_ZCU_CR_BSWCPS_BCA_001
+              </p>
+            </div>
+
+            <div class="mx-5">
+              <table class="w-full text-left px-5">
+                <tr>
+                  <th>Test Steps</th>
+                  <th>Test Behaviour</th>
+                  <th width="auto">Description</th>
+                  <th width="auto">Expected Result</th>
+                  <th width="auto">Observed Result</th>
+                  <th>Result</th>
+                </tr>
+                <tr>
+                  <td class="text-center">Step 1</td>
+                  <td class="text-center">Test Case Initialization</td>
+                  <td>BCA ConvinenceCelingLight ODH Pin init</td>
+                  <td>
+                    ' ODH_56 ' pin status in BCA Stub application is changed
+                  </td>
+                  <td>
+                    ' ODH_56 ' pin status in BCA Stub application is changed
+                  </td>
+                    <td class="PositiveResult">pass</td>
+                </tr>
+                <tr>
+                  <td class="text-center">Step 2</td>
+                  <td class="text-center">Test Case Run</td>
+                  <td>
+                    Run the ConvinenceCelingLight and Verify the 'ODH_56' ZCU_CR pin
+                  </td>
+                  <td>' ODH_56 ' pin status in ZCU_CR is HIGH</td>
+                  
+                  <td>' ODH_56 ' pin status in ZCU_CR is HIGH</td>
+                  <td class="PositiveResult">pass</td>
+                  
+                </tr>
+              </table>
+            </div>
+          </div>
+          
+
+          
+          <div id="testcase3" class="rounded p-5 shadow bg-green-200">
+          
+            <div class="w-full my-5 mx-auto">
+              
+              <p class="PositiveResult">
+                Test Case on
+                TC_ZCU_CR_BSWCPS_BCA_004 - SiliconLampRearR : Passed
+              </p>
+              
+            </div>
+
+            <div class="my-5">
+              <p>
+                <span class="font-bold">Test Case Objective : </span>To verify the SiliconLampRearR Actuator  Hardware Pin status in ZCU_CR
+              </p>
+              <p>
+                <span class="font-bold">Test Case RQM ID : </span
+                >TC_ZCU_CR_BSWCPS_BCA_004
+              </p>
+            </div>
+
+            <div class="mx-5">
+              <table class="w-full text-left px-5">
+                <tr>
+                  <th>Test Steps</th>
+                  <th>Test Behaviour</th>
+                  <th width="auto">Description</th>
+                  <th width="auto">Expected Result</th>
+                  <th width="auto">Observed Result</th>
+                  <th>Result</th>
+                </tr>
+                <tr>
+                  <td class="text-center">Step 1</td>
+                  <td class="text-center">Test Case Initialization</td>
+                  <td>BCA SiliconLampRearR ODH Pin init</td>
+                  <td>
+                    ' ODH_02 ' pin status in BCA Stub application is changed
+                  </td>
+                  <td>
+                    ' ODH_02 ' pin status in BCA Stub application is changed
+                  </td>
+                    <td class="PositiveResult">pass</td>
+                </tr>
+                <tr>
+                  <td class="text-center">Step 2</td>
+                  <td class="text-center">Test Case Run</td>
+                  <td>
+                    Run the SiliconLampRearR and Verify the 'ODH_02' ZCU_CR pin
+                  </td>
+                  <td>' ODH_02 ' pin status in ZCU_CR is HIGH</td>
+                  
+                  <td>' ODH_02 ' pin status in ZCU_CR is HIGH</td>
+                  <td class="PositiveResult">pass</td>
+                  
+                </tr>
+              </table>
+            </div>
+          </div>
+          
+
+          
+          <div id="testcase4" class="rounded p-5 shadow bg-green-200">
+          
+            <div class="w-full my-5 mx-auto">
+              
+              <p class="PositiveResult">
+                Test Case on
+                TC_ZCU_CR_BSWCPS_BCA_003 - SiliconLampPsg : Passed
+              </p>
+              
+            </div>
+
+            <div class="my-5">
+              <p>
+                <span class="font-bold">Test Case Objective : </span>To verify the SiliconLampPsg Actuator  Hardware Pin status in ZCU_CR
+              </p>
+              <p>
+                <span class="font-bold">Test Case RQM ID : </span
+                >TC_ZCU_CR_BSWCPS_BCA_003
+              </p>
+            </div>
+
+            <div class="mx-5">
+              <table class="w-full text-left px-5">
+                <tr>
+                  <th>Test Steps</th>
+                  <th>Test Behaviour</th>
+                  <th width="auto">Description</th>
+                  <th width="auto">Expected Result</th>
+                  <th width="auto">Observed Result</th>
+                  <th>Result</th>
+                </tr>
+                <tr>
+                  <td class="text-center">Step 1</td>
+                  <td class="text-center">Test Case Initialization</td>
+                  <td>BCA SiliconLampPsg ODH Pin init</td>
+                  <td>
+                    ' ODH_01 ' pin status in BCA Stub application is changed
+                  </td>
+                  <td>
+                    ' ODH_01 ' pin status in BCA Stub application is changed
+                  </td>
+                    <td class="PositiveResult">pass</td>
+                </tr>
+                <tr>
+                  <td class="text-center">Step 2</td>
+                  <td class="text-center">Test Case Run</td>
+                  <td>
+                    Run the SiliconLampPsg and Verify the 'ODH_01' ZCU_CR pin
+                  </td>
+                  <td>' ODH_01 ' pin status in ZCU_CR is HIGH</td>
+                  
+                  <td>' ODH_01 ' pin status in ZCU_CR is HIGH</td>
+                  <td class="PositiveResult">pass</td>
+                  
+                </tr>
+              </table>
+            </div>
+          </div>
+          
+
+          
+          <div id="testcase5" class="rounded p-5 shadow bg-green-200">
+          
+            <div class="w-full my-5 mx-auto">
+              
+              <p class="PositiveResult">
+                Test Case on
+                TC_ZCU_CR_BSWCPS_BCA_005 - SeatMovementPsg : Passed
+              </p>
+              
+            </div>
+
+            <div class="my-5">
+              <p>
+                <span class="font-bold">Test Case Objective : </span>To verify the SeatMovementPsg Sensor&Actuator  Hardware Pin status in ZCU_CR
+              </p>
+              <p>
+                <span class="font-bold">Test Case RQM ID : </span
+                >TC_ZCU_CR_BSWCPS_BCA_005
+              </p>
+            </div>
+
+            <div class="mx-5">
+              <table class="w-full text-left px-5">
+                <tr>
+                  <th>Test Steps</th>
+                  <th>Test Behaviour</th>
+                  <th width="auto">Description</th>
+                  <th width="auto">Expected Result</th>
+                  <th width="auto">Observed Result</th>
+                  <th>Result</th>
+                </tr>
+                <tr>
+                  <td class="text-center">Step 1</td>
+                  <td class="text-center">Test Case Initialization</td>
+                  <td>BCA SeatMovementPsg ODH Pin init</td>
+                  <td>
+                    ' ODH_15 ' pin status in BCA Stub application is changed
+                  </td>
+                  <td>
+                    ' ODH_15 ' pin status in BCA Stub application is changed
+                  </td>
+                    <td class="PositiveResult">pass</td>
+                </tr>
+                <tr>
+                  <td class="text-center">Step 2</td>
+                  <td class="text-center">Test Case Run</td>
+                  <td>
+                    Run the SeatMovementPsg and Verify the 'ODH_15' ZCU_CR pin
+                  </td>
+                  <td>' ODH_15 ' pin status in ZCU_CR is HIGH</td>
+                  
+                  <td>' ODH_15 ' pin status in ZCU_CR is HIGH</td>
+                  <td class="PositiveResult">pass</td>
+                  
+                </tr>
+              </table>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+
+      <div id="TestTeardown">
+        <div class="SubHeadingTable">
+          <h1 class="text-center text-xl">Test Setup Teardown</h1>
+        </div>
+        <div class="mx-10">
+          <table class="w-full text-left pr-5">
+            <tr>
+              <!-- <th width="1px">Timestamp</th> -->
+              <th width="1px">Test Step</th>
+              <th width="auto">Description</th>
+              <th width="1px">Result</th>
+            </tr>
+            <tr>
+              <!-- <td>0.103200</td> -->
+              <td>Step2</td>
+              <td> Disconnect the COM port of Numato USB Relay </td>
+              
+              <td class="PositiveResult">pass</td>
+              
+            </tr>
+            <tr>
+              <!-- <td>0.503200</td> -->
+              <td class="text-center">Step3</td>
+              <td>Disonnect the COM port of MCU</td>
+              
+              <td class="PositiveResult">pass</td>
+              
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <footer class="my-10">
+      <p class="mt-8 text-base leading-6 text-center">
+        © 2024 Stellantis, Inc. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>

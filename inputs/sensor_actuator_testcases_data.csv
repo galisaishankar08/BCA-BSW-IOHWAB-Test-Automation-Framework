@@ -1,0 +1,6 @@
+S_No,Variant,TC_RQM_ID,Tescase Name,IAN_No,ODH_No,Test_type
+1,ZCU_CR,TC_ZCU_CR_BSWCPS_BCA_005,SeatMovementPsg,IAN_30,ODH_15,Sensor&Actuator
+2,ZCU_CR,TC_ZCU_CR_BSWCPS_BCA_002,CCourtLightCeilRear,No,ODH_55,Actuator
+3,ZCU_CR,TC_ZCU_CR_BSWCPS_BCA_001,ConvinenceCelingLight,No,ODH_56,Actuator
+4,ZCU_CR,TC_ZCU_CR_BSWCPS_BCA_004,SiliconLampRearR,No,ODH_02,Actuator
+5,ZCU_CR,TC_ZCU_CR_BSWCPS_BCA_003,SiliconLampPsg,No,ODH_01,Actuator
