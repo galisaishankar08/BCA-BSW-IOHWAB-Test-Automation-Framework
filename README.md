@@ -12,15 +12,15 @@ A comprehensive framework designed to streamline the BCA-BSW IOHwAb testing proc
 **Mohammed Tajbaba**
  
 ## About The Project
-**BCA-Sensor Actuator and BSW IOHwAb Automation Testing with Below Framework which contains the Tester Board ,USB Relay Board and STLA-B ZCU CR Board for BCA – BSW END to END Testing.**
+**BCA-Sensor Actuator and BSW IOHwAb Automation Testing with Below Framework which contains the Tester Board ,USB Relay Board and ECU Board for BCA – BSW END to END Testing.**
 
-Test framework is  used to communicate with UART Protocol to Monitor ,control and operate the Real time write/read of Actuator, IO and Sensor Signal Voltages Values on the different STLA-B ZCU  with the help of Tester Board and USB digital Relay card.​
+Test framework is  used to communicate with UART Protocol to Monitor ,control and operate the Real time write/read of Actuator, IO and Sensor Signal Voltages Values on the different ECU  with the help of Tester Board and USB digital Relay card.​
 
-* STLA-B ZCU Test Board is verified with help of Tester Board and USB Relay Board using the Test framework.​
+* ECU Test Board is verified with help of Tester Board and USB Relay Board using the Test framework.​
 
-* Tester Board communicates with UART Protocol with Test Bench PC using pyserial Framework to control  and monitor the STLA-B ZCU Board HW PIN status.​
+* Tester Board communicates with UART Protocol with Test Bench PC using pyserial Framework to control  and monitor the ECU Board HW PIN status.​
 
-* USB Relay Board communicates with UART Protocol with Test Bench PC using pyserial Framework to control write and read the STLA ZCU Board HW PIN status.​
+* USB Relay Board communicates with UART Protocol with Test Bench PC using pyserial Framework to control write and read the ECU Board HW PIN status.​
 
 * Report Generation: Test case Setup and Test case Run Steps
  
